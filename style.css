@@ -1,0 +1,55 @@
+body{
+    background-color: #151515;
+}
+
+
+
+#conteiner{
+    display: block;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%)translateY(-50%);
+    width: 300px;
+    height: 400px;
+    background-color: none;
+    padding: 20px;
+    border-radius: 0%;
+}
+
+.sameuli{
+    display: flex;
+    width: 300px;
+    height: 100px;
+    background-color: bisque;
+    border-radius: 10px;
+    
+}
+
+.rows{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 50px;
+    vertical-align: middle;
+    line-height: 100px;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border: whitesmoke solid 2px;
+    font-family: Pacifico;
+    border-radius: 10px;
+}
+
+/* @keyframes spin{
+    from {
+        transform: rotateX(0deg)rotateY(0deg);
+    }
+    to {
+        transform: rotateX(0deg)rotateY(360deg);
+    }
+    
+} */
+
+#zed{
+    background-color: whitesmoke;
+}
